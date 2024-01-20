@@ -1,4 +1,4 @@
-package PageFile;
+package Utility;
 
 import static org.testng.Assert.assertEquals;
 

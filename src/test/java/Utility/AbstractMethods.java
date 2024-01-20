@@ -1,4 +1,4 @@
-package PageFile;
+package Utility;
 
 import java.time.Duration;
 
@@ -30,20 +30,19 @@ public class AbstractMethods {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(FindBy));
 	}
-//
-//	public void Hoveranyelement(WebElement el) {
-//
-//		Actions ac = new Actions(driver);
-//		ac.moveToElement(el).build().perform();
-//	}
 
-	public void implicitlywaitmethod() {
+	public void sleepTimeMethod() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 	}
 	
 	public void scroll_Down() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(500, document.body.scrollHeight)");
+
+	}
+	public void scroll_Up() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollTo(-500, document.body.scrollHeight)");
 
 	}
 }
