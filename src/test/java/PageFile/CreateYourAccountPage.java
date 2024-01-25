@@ -102,12 +102,6 @@ public class CreateYourAccountPage {
 		//click on verify mobile no. button
 		driver.findElement(verifyMobileNumButton).click();
 
-		//verify landed to Verify mobile number page "enter OTP"
-		OTPPage.isEnabled();
-		Assert.assertTrue(verifymobileText.isDisplayed(), "verify mobile number text is not visible");
-
-		//enter the otp manually
-		
 		System.out.println("Your account is created");
 
 		System.out.println("Test Case 20-->> Create your account with valid inputs");

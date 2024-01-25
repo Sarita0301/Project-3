@@ -80,56 +80,56 @@ public class Automation_Test_AmazonIN {
 		}
 	}
 
-//	@Test(priority=1)
-//	public void verifyHomePage() throws IOException {
-//		//Verify Navigated to Home Page
-//		Hp = new amazonHomePage(driver);
-//		Hp.verify_LandedToHomePage();
-//
-//		//Sleep Time
-//		Am = new AbstractMethods(driver);
-//		Am.sleepTimeMethod();
-//
-//		System.out.println("Test Case 1-->> Verifing the Home Page visible");
-//	}
-//
-//	@Test(priority=2)
-//	public void verifySearchTab_EnterKeys_or_SearchButton() throws IOException {
-//		//Verify Navigated to Home Page
-//		Hp = new amazonHomePage(driver);
-//		Hp.verify_LandedToHomePage();
-//
-//		//Sleep time
-//		Am = new AbstractMethods(driver);
-//		Am.sleepTimeMethod();
-//
-//		//Verify search tab and get the suggestion of product list
-//		Sp= new SearchProducts(driver);
-//		Sp.InputOnSearchTab();
-//		Sp.VerifySearchProducts();
-//		Sp.EnterOnSearchTab();
-//
-//
-//		System.out.println("Test Case 2-->> Verifing the Search Tab and get the suggestion list visible");
-//
-//
-//		driver.navigate().back();
-//		driver.navigate().refresh();
-//
-//		//Search Product "charger" & get charger suggestion's
-//		Sp= new SearchProducts(driver);
-//		Sp.InputOnSearchTab();
-//
-//		//Click on Search Button & Verifying it's enabled
-//		Sp.clickOnSearchButton();
-//
-//		//Verify Landed to searched product result page		
-//		Sp.verifylandedToSearchProductPage();
-//
-//		System.out.println("Test Case 3-->> Verifing the Home Page visible");
-//
-//
-//	}	
+	@Test(priority=1)
+	public void verifyHomePage() throws IOException {
+		//Verify Navigated to Home Page
+		Hp = new amazonHomePage(driver);
+		Hp.verify_LandedToHomePage();
+
+		//Sleep Time
+		Am = new AbstractMethods(driver);
+		Am.sleepTimeMethod();
+
+		System.out.println("Test Case 1-->> Verifing the Home Page visible");
+	}
+
+	@Test(priority=2)
+	public void verifySearchTab_EnterKeys_or_SearchButton() throws IOException {
+		//Verify Navigated to Home Page
+		Hp = new amazonHomePage(driver);
+		Hp.verify_LandedToHomePage();
+
+		//Sleep time
+		Am = new AbstractMethods(driver);
+		Am.sleepTimeMethod();
+
+		//Verify search tab and get the suggestion of product list
+		Sp= new SearchProducts(driver);
+		Sp.InputOnSearchTab();
+		Sp.VerifySearchProducts();
+		Sp.EnterOnSearchTab();
+
+
+		System.out.println("Test Case 2-->> Verifing the Search Tab and get the suggestion list visible");
+
+
+		driver.navigate().back();
+		driver.navigate().refresh();
+
+		//Search Product "charger" & get charger suggestion's
+		Sp= new SearchProducts(driver);
+		Sp.InputOnSearchTab();
+
+		//Click on Search Button & Verifying it's enabled
+		Sp.clickOnSearchButton();
+
+		//Verify Landed to searched product result page		
+		Sp.verifylandedToSearchProductPage();
+
+		System.out.println("Test Case 3-->> Verifing the Home Page visible");
+
+
+	}	
 
 	@Test(priority=3)
 	public void VerifyThePriceFilter() throws IOException {
