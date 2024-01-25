@@ -5,8 +5,16 @@
     <classes>
       <class name="TestPage.Automation_Test_AmazonIN">
         <methods>
-          <include name="verifyHomePage"/>
+          <include name="LanguageOnMouseHoverOnENglish"/>
+          <include name="verifyAboutUs_atfooterHomePage"/>
+          <include name="verifyAmazonMiniTVFuntion"/>
+          <include name="setUp"/>
+          <include name="Verify_createAccountFunctionality"/>
+          <include name="Verify_SignInPage"/>
+          <include name="viewProductDetails_And_AddProductToCart"/>
+          <include name="VerifyThePriceFilter"/>
           <include name="closeBrowser"/>
+          <include name="TodayDealsTabFunction"/>
         </methods>
       </class> <!-- TestPage.Automation_Test_AmazonIN -->
     </classes>

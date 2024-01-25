@@ -45,4 +45,11 @@ public class AbstractMethods {
         js.executeScript("window.scrollTo(-500, document.body.scrollHeight)");
 
 	}
+	
+	public void Hoveranyelement(WebElement el) {
+
+		Actions ac = new Actions(driver);
+		ac.moveToElement(el).build().perform();
+	}
+
 }

@@ -1,2 +1,11 @@
 browser= chrome
 url = https://www.amazon.in/
+Product1= Mobile phone
+MinimumPrice= 3999
+MaximumPrice= 26999
+userEmailInput= 7303363523
+passwordInput=@123456
+firstAndLastName= seema
+MobileNo= 7303363522
+emailId= seema13@gmail.com
+passCreateYourAc= 1234567
