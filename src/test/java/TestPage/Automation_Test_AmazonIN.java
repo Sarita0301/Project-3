@@ -406,30 +406,3 @@ public class Automation_Test_AmazonIN {
 
 
 
-
-
-//	@Test(priority=3)
-//	public void verifyHomePagesearchWith_SearchButton() throws IOException {
-//		Hp = new amazonHomePage(driver);
-//		Hp.verify_LandedToHomePage();
-//
-//
-//		Am = new AbstractMethods(driver);
-//		Am.sleepTimeMethod();
-//
-//		//Search Product "charger" & get charger suggestion's
-//		Sp= new SearchProducts(driver);
-//		Sp.InputOnSearchTab();
-//		//		Sp.VerifySearchProducts();
-//
-//		//Click on Search Button & Verifying it's enabled
-//		Sp.clickOnSearchButton();
-//
-//		//Verify Landed to searched product result page		
-//		Sp.verifylandedToSearchProductPage();
-//
-//
-//		System.out.println("Test Case 3-->> Verifing the Home Page visible");
-//	}
-
-
