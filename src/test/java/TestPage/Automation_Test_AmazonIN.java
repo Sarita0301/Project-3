@@ -1,4 +1,4 @@
-package TestPage;
+	package TestPage;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -66,7 +66,7 @@ public class Automation_Test_AmazonIN {
 			driver.manage().window().maximize();
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		
 			System.out.println(e.getMessage());
 		}
 		System.out.println(driver.getTitle());
@@ -300,9 +300,6 @@ public class Automation_Test_AmazonIN {
 		Hp.verify_LandedToHomePage();
 		System.out.println("Test Case 12-->> verify settings features of mini tv page");
 
-
-		//TVpg.clickOnGoToAmazon();
-		//Hp.verify_LandedToHomePage();
 	}
 
 
@@ -345,8 +342,7 @@ public class Automation_Test_AmazonIN {
 
 	@Test(priority=6)
 	public void Verify_SignInPage() throws IOException {
-		//Validate with invalid email Id
-		System.out.println("********");
+	
 		//Land to home page and verify the same
 		Hp = new amazonHomePage(driver);
 		//Click on Hello Sign in Accounts & Lists
@@ -361,8 +357,7 @@ public class Automation_Test_AmazonIN {
 		//Land to home page and verify the same
 		Hp = new amazonHomePage(driver);
 		//Click on Hello Sign in Accounts & Lists
-		//Sip = new SignInPage(driver);
-		//Sip.VerifyLandedToSignInPage();
+		
 		CyAp= new CreateYourAccountPage(driver);
 		CyAp.verifyCreateYourAccountWithValidData();
 

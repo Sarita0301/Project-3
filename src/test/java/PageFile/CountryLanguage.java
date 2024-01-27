@@ -27,9 +27,7 @@ public class CountryLanguage extends AbstractMethods{
 	WebElement defaultLang;
 
 	By learnMoreOption= By.linkText("Learn more");
-	//@FindBy(xpath="/html/body/div[1]/header/div/div[3]/div[13]/div[2]/a[9]/span/div")
-	//WebElement LearMoreOption;
-
+	
 	@FindBy(xpath="//*[@id=\"nav-flyout-icp\" and @class=\"nav-coreFlyout nav-flyout\"]/div[2]/a[2]/span/i")
 	WebElement hindiOption;
 

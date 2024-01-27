@@ -80,11 +80,6 @@ public class CreateYourAccountPage {
 		String mobileNoInput=p.getProperty("MobileNo");
 		driver.findElement(mobileNo).sendKeys(mobileNoInput);
 
-		//verify country code is automatically select based on geographic location
-		//countryCode.sendKeys("India");
-		//Assert.assertTrue(visibleCountryCode.isDisplayed(), "Country code India is not visible");
-
-
 		//Input the email Id
 		String emailIDInput=p.getProperty("emailId");
 		driver.findElement(emailId).sendKeys(emailIDInput);

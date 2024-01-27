@@ -36,21 +36,6 @@ public void clickOnClearOnButton() {
 		Assert.assertTrue(LeftRefinementList.get(0).isDisplayed(), "Left refinement list is not visible.");
 
 
-		// printting the left refinement of searched product page
-		//		if (!LeftRefinementList.isEmpty()) {
-		//			// Print each suggestion
-		//			System.out.println("Left refinement list:");
-		//			Am= new AbstractMethods(driver);
-		//			Am.sleepTimeMethod();
-		//			for (WebElement LeftRefinement : LeftRefinementList) {
-		//				System.out.println(LeftRefinement.getText());
-		//			}
-		//			// Assertion to check if the left refinement list is visible
-		//			
-		//		} else {
-		//			System.out.println("No search Left refinement found.");
-		//		}
-
 	}
 
 	public void delivery_GetItByTomorrow() {

@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 public class ProductPage {
 	WebDriver driver;
 	
-	@FindBy(xpath="//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[4]/div/div/div/div/span/div/div/div/div[1]/div/div[2]/div/span/a/div")
+	@FindBy(xpath="//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[8]/div/div/span/div/div/div/div[1]/div/div[2]/div/span/a/div/img")
 	WebElement firstProduct;
 	
-	@FindBy(xpath="/html/body/div[2]/div/div[5]/div[3]/div[1]/div[3]/div/div[1]/div/div[1]/div/div/div[1]/div/div[2]/div[4]/div[4]/div/form/div/div[1]/span/span/span/input")
+	@FindBy(xpath="//*[@id=\"add-to-cart-button\"]")
 	WebElement AddToCartBtn;
 	
 	

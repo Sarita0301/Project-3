@@ -13,20 +13,20 @@ import org.openqa.selenium.support.PageFactory;
 public class PriceFilter {
 WebDriver driver;
 
-@FindBy(xpath="/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div/div/div/div[4]/ul[1]/span/span[1]/li/span/a/span")
+@FindBy(xpath="//li[@id=\"p_36/1318503031\"]/span/a/span")
 WebElement Under1K;
 
-@FindBy(xpath="/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul[1]/span/span[2]/li/span/a/span")
+@FindBy(xpath="//li[@id=\"p_36/1318504031\"]/span/a/span")
 WebElement OneKto5K;
 
 
-@FindBy(xpath="/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul[1]/span/span[3]/li/span/a/span")
+@FindBy(xpath="//li[@id=\"p_36/1318505031\"]/span/a/span")
 WebElement FiveKto10K;
 
-@FindBy(xpath="/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul[1]/span/span[4]/li/span/a/span")
+@FindBy(xpath="//li[@id=\"p_36/1318506031\"]/span/a/span")
 WebElement TenKto20K;
 
-@FindBy(xpath="/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[6]/ul[1]/span/span[5]/li/span/a/span")
+@FindBy(xpath="//li[@id=\"p_36/1318507031\"]/span/a/span")
 WebElement Over20K;
 
 
